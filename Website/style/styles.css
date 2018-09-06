@@ -1,0 +1,61 @@
+header *{ //this line took me way to long to figure out (it doesnt work if you only write 'header' without the ' *');
+	display: inline;
+}
+nav{
+	background-color: yellow;
+}
+nav a{
+	color: purple;
+	text-decoration: none;
+}
+nav a:hover{
+	background-color: green;
+	color: red;
+	// display: none; /*uncomment this for fun*/
+}
+
+footer{
+	background-color: grey;
+}
+table, th, td {
+	border-collapse: collapse;
+	border: 1px solid black;
+	padding: 20px;
+}
+
+footer p a:link{
+	text-decoration: none;
+	color: black;
+}
+footer p a:visited{
+	text-decoration: none;
+	color: black;
+}
+input {
+	width=15;
+}
+
+//take this out probably;
+.test{
+	background-color: red;
+	display: inline;
+}
+
+
+body, html {
+	width:100%
+	margin: 0;
+	padding: 0;
+}
+
+
+
+
+
+/*
+ any descendent
+>child only
+
++next sibbling
+~any sibbling (a must precede b it seems)
+*/
